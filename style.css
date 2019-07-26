@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+aside,
+footer,
+header,
+main {
+  display: block;
+}
+
+form.calc {
+  display: flex;
+  justify-content: center;
+  width: 18.5em;
+  margin: auto;
+  padding: 4px 8px 8px 8px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+div.calc-row {
+  display: block;
+}
+
+#display {
+  padding: 1px 6px;
+  margin: 4px 0;
+  border: 1px solid #999;
+  width: 11.5em;
+  height: 2.17em;
+  line-height: 2em;
+  font-size: 1.5em;
+  background-color: #ffffff;
+  color: #000000;
+  text-align: right;
+}
+
+#display:focus {
+  outline: 1px solid #000000;
+  cursor: pointer;
+}
+
+#display:hover {
+  cursor: pointer;
+}
+
+button {
+  width: 2.75em;
+  line-height: 2.096em;
+  text-align: center;
+  border: 1px solid #ccc;
+  font-size: 1.5em;
+  margin-top: 4px;
+}
+
+button.grey {
+  color: #444444;
+  background-color: #ddd;
+}
+
+button.yellow {
+  color: #000000;
+  background-color: #ffcc00;
+  font-weight: bold;
+}
+
+button.white {
+  color: #000000;
+  background-color: #f6f6f6;
+  font-weight: bold;
+}
+
+button:hover {
+  border: 1px solid #999;
+}
+
+button:active {
+  background-color: #ccc;
+}
+
+button:focus {
+  outline: 1px solid #000;
+}
+
+.calcsoup {
+  margin: 12px 4px 0 4px;
+  font-size: 70%;
+  text-align: right;
+}
+
+span.calculator {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.2em;
+  color: #333333;
+  font-weight: bold;
+}
+
+span.soup {
+  font-size: 1.1em;
+  color: #bd362f;
+  font-weight: bold;
+  font-family: Verdana, Arial, sans-serif;
+  margin-left: -3px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 4px;
+}
+
+h1.heading, h2.heading {
+  text-align: center;
+  font-style: italic;
+  font-size: 1.5em;
+  margin: 4px;
+  color: #666666;
+  background-color: #FFFFFF;
+}
+
+h2 {
+  margin: 19.92px 0;
+}
+
+h3 {
+  margin: 18.72px 0;
+}
+
+p {
+  margin: 1em;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  padding-inline-start: 40px;
+}
+
+ul ul {
+  list-style-type: circle;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+li {
+  display: list-item;
+}
